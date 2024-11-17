@@ -1,0 +1,16 @@
+[package]
+name = "BettingGame"           # Changed from RockPaperScissors_01
+version = "1.0.0"
+authors = []
+
+[addresses]
+metaschool = "0x509ef83db206226a10dff19d90882a1c452a836aab4843e08e05d4b2b631f28a"
+std = "0x1"
+MAIN_ACCOUNT = "0x509ef83db206226a10dff19d90882a1c452a836aab4843e08e05d4b2b631f28a"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
+
+[dev-dependencies]
